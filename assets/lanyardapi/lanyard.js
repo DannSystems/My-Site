@@ -1,3 +1,8 @@
+// Website code made by Dan 
+// Some of this code in /assets/lanyardapi/lanyard.js was made possible with the help of some other developers and is not fully made by Dan himself
+// If you need to contact me, you can email me at dan@liquidbot.pw or through my discord dann#5466 
+// Please leave these comments in!
+
 $(document).ready(function(){
     setInterval(() => {
         $.get("https://api.lanyard.rest/v1/users/591865042996297729", function({ data }){
